@@ -1,2 +1,2 @@
-a, b, c = map(int, input().split("-"))
-print(f"{a}-{c}-{b}")
+a, b, c = map(input().split("-"))
+print(f"010-{c}-{b}")
