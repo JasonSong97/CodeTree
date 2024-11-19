@@ -1,2 +1,2 @@
-a, b, c = map(input().split("-"))
-print("010-" + c + "-" + b )
+a, b, c = input().split("-")
+print(a + "-" + c + "-" + b)
