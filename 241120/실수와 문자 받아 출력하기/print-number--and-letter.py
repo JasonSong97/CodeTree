@@ -4,4 +4,4 @@ c = float(input())
 
 print(a)
 print(f"{b:.2f}")
-print(f"{b:.3f}")
+print(f"{c:.3f}")
