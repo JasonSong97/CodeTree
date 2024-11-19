@@ -1,2 +1,2 @@
 n = float(input()) * 30.48
-print(f"{n: .1f}")
+print(f"{n:.1f}")
