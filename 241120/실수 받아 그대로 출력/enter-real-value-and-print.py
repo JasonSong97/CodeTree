@@ -1,1 +1,1 @@
-print(float(input()))
+print(float(input()).2f)
