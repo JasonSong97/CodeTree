@@ -1,2 +1,2 @@
 print(3)
-print(C)
+print("C")
