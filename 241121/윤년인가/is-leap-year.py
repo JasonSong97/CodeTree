@@ -1,6 +1,14 @@
-a = int(input())
-if a % 4 == 0:
-    print("true")
+# 변수 선언, 입력
+y = int(input())
+
+# 출력
+if y % 4 == 0:
+	if y % 100 == 0:
+		if y % 400 == 0:
+			print("true")
+		else:
+			print("false")
+	else:
+		print("true")
 else:
-    if a % 100 == 0 or a % 400 != 0:
-        print("false")
+	print("false")
