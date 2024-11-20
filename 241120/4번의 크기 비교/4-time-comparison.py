@@ -2,8 +2,8 @@ import sys
 
 input = sys.stdin.readline
 
-n = int(input())
-a, b, c, d = map(int, input().split())
+a = int(input())
+b, c, d, e = map(int, input().split())
 
 
 print(1 if a > b else 0)
