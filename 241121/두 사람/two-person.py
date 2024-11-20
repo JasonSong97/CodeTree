@@ -1,7 +1,6 @@
-a, b = map(str, input().split())
-c, d = map(str, input().split())
+n = int(input())
 
-if (int(a) >= 19 and d == "M") and (b == "M" and int(c) >= 19):
-    print(1)
+if (n % 2 != 0 and n % 3 == 0) or (n % 2 == 0 and n % 5 == 0):
+    print('true')
 else:
-    print(0)
+    print('false')
