@@ -4,4 +4,4 @@ b = int(input())
 z = a + 87
 
 print(z)
-print(z % 10)
+print(b % 10)
