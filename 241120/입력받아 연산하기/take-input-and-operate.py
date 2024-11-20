@@ -1,7 +1,7 @@
 a = int(input())
 b = int(input())
 
-z = a + b
+z = a + 87
 
 print(z)
 print(z % 10)
