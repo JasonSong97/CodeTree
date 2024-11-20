@@ -1,3 +1,6 @@
 a, b, c = map(int, input().split())
 
-print(f"{a + b + c} {(a + b + c) / 3}")
+d = (a + b + c) / 3
+
+print(a + b + c)
+print(f"{d:.0f}")
